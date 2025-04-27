@@ -1,0 +1,33 @@
+body{
+  background: linear-gradient(to right,#1c1c1c,#e15b2a);
+}
+button{
+  background: linear-gradient(to right, #ffa500, #ff4500);
+  gap: 30px;
+}
+.hero{
+ text-align: center;
+ color: white;
+ padding: 100px 50px;
+}
+.hero h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 64px;
+  letter-spacing: 2px;
+}
+.card-container {
+  display: flex;
+  justify-content: center; /* center mein lane ke liye */
+  gap: 20px; /* cards ke beech mein space */
+}
+
+.card {
+  width: 200px;
+  height: 150px;
+  background-color: lightblue;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
